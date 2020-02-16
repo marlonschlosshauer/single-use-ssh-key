@@ -1,0 +1,6 @@
+sshd_config: '/etc/ssh/sshd_config'
+sshd_log: '/var/log/auth.log'
+ssh_config: '~/.ssh/rc'
+authorized_keys: '~/.ssh/authorized_keys'
+comment: 'single-use-ssh-key'
+call: 'single-use-ssh-key -d'
